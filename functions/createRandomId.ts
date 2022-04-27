@@ -1,0 +1,1 @@
+export const createRandomId = () =>`HB${Math.floor(Math.random() * 1000000000)}`;
