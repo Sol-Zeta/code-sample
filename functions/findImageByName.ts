@@ -1,6 +1,6 @@
 import { images } from "../assetsRoutes";
 
-// TODO: agragar comentario 
+// The keys of this object are in spanish to match the names of the API response
 
 const imageNames = {
   tomate: images.tomato,

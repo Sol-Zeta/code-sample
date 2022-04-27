@@ -1,8 +1,12 @@
-// TODO: add interface
+interface IData {
+  name?: string;
+  description?: string;
+  price?: string;
+  active?: boolean;
+}
 
-
-export const formatData = (data: any) => {
-  const formatedData: any = {};
+export const formatData = (data: IData) => {
+  const formatedData = {};
   for (const key in data) {
     if (Object.prototype.hasOwnProperty.call(data, key)) {
       if (key === "price") {
